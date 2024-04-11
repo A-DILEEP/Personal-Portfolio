@@ -90,19 +90,6 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
-    cursor: pointer;
-}
-.navbar .logo a span{
-    color: crimson;
-    transition: all 0.3s ease;
-}
-.navbar.sticky .logo a span{
-    color: #fff;
-}
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -134,6 +121,7 @@ section .title::after{
     font-size: 23px;
     cursor: pointer;
     display: none;
+    background-color:#000;
 }
 .scroll-up-btn{
     position: fixed;
