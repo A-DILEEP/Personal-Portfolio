@@ -121,7 +121,6 @@ section .title::after{
     font-size: 23px;
     cursor: pointer;
     display: none;
-    background-color:#000;
 }
 .scroll-up-btn{
     position: fixed;
@@ -151,8 +150,6 @@ section .title::after{
     filter: brightness(90%);
 }
 
-
-/* home section styling */
 .home{
     display: flex;
     background-color: #000;
@@ -396,7 +393,6 @@ section .title::after{
     color: white;
     background: crimson;
 }
-/* contact section styling */
 input,textarea
 {
     caret-color: red;
@@ -494,7 +490,6 @@ input,textarea
   color: white;
   background: crimson;
 }
-/* footer section styling */
 
 footer
 {
