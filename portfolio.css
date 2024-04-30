@@ -4,7 +4,6 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: monospace,'Poppins', sans-serif;
-    
 }
 html{
     scroll-behavior: smooth;
@@ -90,6 +89,7 @@ section .title::after{
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .menu li{
     list-style: none;
     display: inline-block;
@@ -149,6 +149,8 @@ section .title::after{
 .scroll-up-btn:hover{
     filter: brightness(90%);
 }
+
+
 
 .home{
     display: flex;
@@ -393,6 +395,7 @@ section .title::after{
     color: white;
     background: crimson;
 }
+/* contact section styling */
 input,textarea
 {
     caret-color: red;
@@ -491,9 +494,10 @@ input,textarea
   background: crimson;
 }
 
+
 footer
 {
-    position: relative;
+    position:relative;
     width: 100%;
     background: #3586ff;
     min-height: 100px;
@@ -723,6 +727,14 @@ footer .wave#wave4
 }
 
 @media (max-width: 690px) {
+    html,body{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        overflow-y: scroll;
+    }
     .max-width{
         padding: 0 23px;
     }
@@ -743,6 +755,14 @@ footer .wave#wave4
 }
 
 @media (max-width: 500px) {
+    html,body{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        overflow-y: scroll;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
@@ -771,4 +791,48 @@ footer .wave#wave4
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+@media (max-width: 400px) {
+    html,body{
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        overflow-y: scroll;
+    }
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 19px;
+    }
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+@media (max-width: 800px) {
+  html, body {
+  overflow-x: hidden;
+  }
 }
