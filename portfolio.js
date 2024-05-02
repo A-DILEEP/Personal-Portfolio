@@ -1,11 +1,11 @@
 $(document).ready(function () {
   $(window).scroll(function () {
-   
     if (this.scrollY > 20) {
       $(".navbar").addClass("sticky");
     } else {
       $(".navbar").removeClass("sticky");
     }
+
     if (this.scrollY > 500) {
       $(".scroll-up-btn").addClass("show");
     } else {
@@ -29,9 +29,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing", {
-    strings: [
-      "Student",
-    ],
+    strings: ["Student", "Web Designer", "Front-End Engineer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -44,9 +42,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: [
-      "Student",
-    ],
+    strings: ["Student", "Web Designer", "Front-End Engineer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
