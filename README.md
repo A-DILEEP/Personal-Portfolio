@@ -1,6 +1,7 @@
 # Personal-Portfolio
 
-##How its created 
+##How its created
+
 This Portfolio is created by using Front-End tools HTML , CSS and JS .
 
 | Languages | Percentage in project |
@@ -8,3 +9,8 @@ This Portfolio is created by using Front-End tools HTML , CSS and JS .
 | HTML    |  3️⃣8️⃣%|
 | CSS  | 5️⃣3️⃣%|
 | JavaScript | 7️⃣% |
+
+#Responsive Web Design 
+
+This Portfolio have responsive web design . Responsive in the sense , the web site will change its width and height according to the device height and width .
+
