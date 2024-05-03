@@ -3,7 +3,8 @@
 ##How its created 
 This Portfolio is created by using Front-End tools HTML , CSS and JS .
 
-|HTML | 35% |
--------------
-|CSS  | 58% |
-|JS   |7%   |
+| Languages | Percentage in project |
+| ------- | ------------------ |
+| HTML    |  3️⃣8️⃣%|
+| CSS  | 5️⃣3️⃣%|
+| JavaScript | 7️⃣% |
