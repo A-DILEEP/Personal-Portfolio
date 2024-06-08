@@ -310,16 +310,16 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .js::before{
+    width: 90%;
+}
+.skills-content .right .React::before{
+    width: 75%;
+}
+.skills-content .right .sql::before{
     width: 60%;
 }
-.skills-content .right .cpp::before{
-    width: 80%;
-}
-.skills-content .right .ds::before{
-    width: 80%;
-}
-.skills-content .right .mysql::before{
-    width: 75%;
+.skills-content .right .git::before{
+    width: 90%;
 }
 
 .teams .title::after{
@@ -571,65 +571,7 @@ footer h2
     background:var(--bg);
     transform: rotate(45deg);
 }
-footer p
-{
-    color: #fff;
-    text-align: center;
-    margin-top: 15px;
-    font-size: 1.1em;
-}
-footer p a
-{
-    text-decoration: none;
-    color: black;
-    font-size: 1em;
-    transition: 0.5s ease-in-out;
-}
-footer p a:hover
-{
-    text-decoration: underline;
-    color: rgb(5, 1, 1);
-    font-size: 1.2em;
-    transform: rotateX(10px);
-}
-footer .wave
-{
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    background: url("https://ftl.deekshith.eu.org/354310/None?hash=AgADY7");
-    background-size: 1000px 100px;
-}
-footer .wave#wave1
-{
-    z-index: 1000;
-    opacity: 1;
-    bottom: 0;
-    animation: animatewave 4s linear infinite;
-}
-footer .wave#wave2
-{
-    z-index: 999;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: animatewave_02 4s linear infinite;
-}
-footer .wave#wave3
-{
-    z-index: 1000;
-    opacity: 0.2;
-    bottom:15px;
-    animation: animatewave 3s linear infinite;
-}
-footer .wave#wave4
-{
-    z-index: 999;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: animatewave_02 3s linear infinite;
-}
+
 @keyframes animatewave
 {
     0%
