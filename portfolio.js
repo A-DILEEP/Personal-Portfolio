@@ -29,7 +29,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing", {
-    strings: ["Student", "Web Designer", "Front-End Engineer"],
+    strings: ["Student", "Web Developer", "Front-End Engineer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -42,7 +42,7 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Student", "Web Designer", "Front-End Engineer"],
+    strings: ["Student", "Web Developer", "Front-End Engineer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
