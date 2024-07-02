@@ -7,7 +7,7 @@ This repository contains the source code for my personal portfolio website, buil
 ***CSS (Cascading Style Sheets)***: Styles the website's visual elements, including layout, typography (fonts!), and color schemes (think the website's beautiful outfit ).<br>
 <br>
 ***JavaScript***: Adds interactivity and dynamic features to enhance the user experience, making your portfolio stand out! (think cool animations or interactive elements ).<br>
-Getting Started
+# Getting Started
 
 ## Clone the Repository:
 
