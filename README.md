@@ -31,9 +31,7 @@ Feel free to customize the HTML, CSS, and JavaScript files to personalize your p
 
 **Font Sizes:** You can adjust font sizes using CSS properties like font-size. Experiment to find the perfect balance for readability and aesthetics!
 
-## Contributing
-
-If you'd like to contribute to this project, please create a pull request on GitHub. This allows you to share your proposed changes with me for review and potential inclusion in the main repository. We can make this portfolio even better together!
+**Web3Forms:** Dont forget to change the web3forms access key to your own mail access key when using my code to practise your portfolio
 
 ## License
 
