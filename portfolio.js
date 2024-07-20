@@ -29,7 +29,10 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing", {
-    strings: ["Student", "Web Developer", "Front-End Engineer"],
+    strings: [ "Student",
+      "Tech-Enthusiastic",
+      "Front-End Developer",
+      "Full-Stack Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
@@ -42,7 +45,10 @@ $(document).ready(function () {
   });
 
   var typed = new Typed(".typing-2", {
-    strings: ["Student", "Web Developer", "Front-End Engineer"],
+    strings: [ "Student",
+      "Tech-Enthusiastic",
+      "Front-End Developer",
+      "Full-Stack Developer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
