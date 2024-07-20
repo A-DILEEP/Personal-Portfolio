@@ -30,7 +30,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, footer{
+.about, .services, .skills, .projects, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -65,7 +65,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: #ff6600;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -82,7 +82,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: #ff6600;
 }
 .navbar .max-width{
     display: flex;
@@ -104,10 +104,11 @@ section .title::after{
     
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: #ff6600;
     cursor: pointer;
-    border-bottom:2px solid crimson ;
-    border-radius:20%;
+    border-bottom:2px solid #ff6600 ;
+    border-radius:3px;
+    transform:scale(1.2);
 }
 .navbar.sticky .menu li a:hover{
     color: #ffffff;
@@ -126,7 +127,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: #ff6600;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -182,7 +183,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: #ff6600;
     font-weight: 500;
 }
 
@@ -197,7 +198,7 @@ section .title::after{
     width: 300px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0px 0px 2rem crimson;
+    box-shadow: 0px 0px 2rem #ff6600;
 }
 .about .about-content .right{
     width: 55%;
@@ -208,27 +209,27 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: #ff6600;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
      display: inline-block;
-    color: crimson;
+    color: #ff6600;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #ff6600;
     transition: all 0.3s ease-in-out; 
     
     
 }
 .about .about-content .right a:hover{
    color: white;
-    background: crimson;
+    background: #ff6600;
 
 } 
 
@@ -249,29 +250,29 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    color: crimson;
+    color: #ff6600;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #ff6600;
     transition: 0.3s ease-in-out;
 }
 .skills .skills-content .left a:hover{
     color: white;
-    background: crimson;
+    background: #ff6600;
 }
 .skills .skills-content .left p #link
 {
     border: none;
     text-decoration: none;
-    color: crimson;
+    color: #ff6600;
 }
 
 .skills .skills-content .left p #link:hover
 {
-    color: crimson;
+    color: #ff6600;
     text-transform: uppercase;
     text-decoration: underline;
     background: none;
@@ -301,7 +302,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: #ff6600;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -313,28 +314,32 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .React::before{
-    width: 75%;
+    width: 90%;
 }
-.skills-content .right .sql::before{
-    width: 60%;
+.skills-content .right .NodeJs::before{
+    width: 85%;
 }
-.skills-content .right .git::before{
+.skills-content .right .MongoDB::before{
+    width: 80%;
+}
+.skills-content .right .Github::before{
     width: 90%;
 }
 
-.teams .title::after{
+.projects .title::after{
     content: "Projects Done";
 }
-.teams .carousel .card{
+.projects .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    color:#e49696;
 }
 
- .teams .carousel .card .box{
+ .projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -342,20 +347,21 @@ section .title::after{
     transition: all 0.3s ease;
 }
 
-.teams .carousel .card .text{
+.projects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color:#fff;
 }
-.teams .carousel .card img{
+.projects .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid #ff6600;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.projects .carousel .card:hover img{
     border-color: #0039f5;
 }
 .owl-dots{
@@ -377,25 +383,25 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: #ff6600!important;
 }
-.teams .carousel .card .box .project
+.projects .carousel .card .box .project
 {
     display: inline-block;
-    color: crimson;
+    color: #ff6600;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid #ff6600;
     transition: 0.3s ease-in-out;
 }
-.teams .carousel .card .box .project:hover{
+.projects .carousel .card .box .project:hover{
     color: white;
-    background: crimson;
+    background: #ff6600;
 }
-/* contact section styling */
+
 input,textarea
 {
     caret-color: red;
@@ -427,7 +433,7 @@ input,textarea
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #ff6600;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -476,7 +482,7 @@ input,textarea
   align-items: center;
 }
 .right form .button-area button{
-  color: crimson;
+  color: #ff6600;
   display: block;
   width: 160px!important;
   height: 45px;
@@ -486,12 +492,12 @@ input,textarea
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  border: 2px solid crimson;
+  border: 2px solid #ff6600;
   transition: all 0.3s ease-in-out;
 }
 .right form .button-area button:hover{
   color: white;
-  background: crimson;
+  background: #ff6600;
 }
 
 
