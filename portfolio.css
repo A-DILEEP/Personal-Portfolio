@@ -337,6 +337,7 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
     color:#e49696;
+    border-radius: 30px;
 }
 
  .projects .carousel .card .box{
@@ -360,9 +361,11 @@ section .title::after{
     border-radius: 50%;
     border: 5px solid #ff6600;
     transition: all 0.3s ease;
+    filter:grayscale(100%);
 }
 .projects .carousel .card:hover img{
     border-color: #0039f5;
+    filter: grayscale(0%);
 }
 .owl-dots{
     text-align: center;
