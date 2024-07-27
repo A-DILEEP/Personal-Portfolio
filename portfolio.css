@@ -198,7 +198,7 @@ section .title::after{
     width: 300px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0px 0px 2rem #ff6600;
+    box-shadow: 0px 0px 2rem #494949;
 }
 .about .about-content .right{
     width: 55%;
